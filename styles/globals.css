@@ -136,6 +136,63 @@
     @apply text-[36px] leading-[44px];
   }
 
+  /* Typography */
+  .heading-1 {
+    @apply text-30 font-bold text-gray-900 mt-2 mb-4;
+  }
+
+    .heading-2 {
+        @apply text-24 font-bold text-gray-900 mt-2 mb-4;
+    }
+
+    .heading-3 {
+        @apply text-20 font-bold text-gray-900 mt-2 mb-4;
+    }
+
+    .heading-4 {
+        @apply text-18 font-bold text-gray-900 mt-2 mb-4;
+    }
+
+    .heading-5 {
+        @apply text-16 font-bold text-gray-900 mt-2 mb-3;
+    }
+
+    .heading-6 {
+        @apply text-14 font-bold text-gray-900 mt-2 mb-3;
+    }
+
+    .body-1 {
+        @apply text-16 text-gray-900;
+    }
+
+    .body-2 {
+        @apply text-14 text-gray-900;
+    }
+
+    .caption {
+        @apply text-12 text-gray-900;
+    }
+
+    .overline {
+        @apply text-10 text-gray-900;
+    }
+
+    .button {
+        @apply text-16 font-semibold text-white;
+    }
+
+    .button-text {
+        @apply text-16 font-semibold text-bankGradient;
+    }
+
+    .link {
+        @apply text-16 font-semibold text-bankGradient;
+    }
+
+    .link-text {
+        @apply text-16 font-semibold text-gray-900;
+    }
+
   /* Category Badge */
   .category-badge {
     @apply flex-center truncate w-fit gap-1 rounded-2xl border-[1.5px] py-[2px] pl-1.5 pr-2;
